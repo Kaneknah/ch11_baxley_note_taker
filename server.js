@@ -21,6 +21,15 @@ app.listen(PORT, () => {
 	console.log(`API server now on port ${PORT}!`);
 });
 
-// app.use
+//Parses Data for the URL and Json POSS.
+app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+app.use(express.static("public"));
 
-// app.listen
+// Sets the use of the api and HTML routes
+app.use("/api", apiRoutes);
+app.use("/", htmlRoutes);
+
+app.listen(PORT, () => {
+	console.log();
+});
