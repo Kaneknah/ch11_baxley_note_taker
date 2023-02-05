@@ -10,5 +10,13 @@ router.post("/notes", (req, res) => {
 	res.json(notes);
 });
 //router.delete
+router
+	.delete("/notes/:id", function (req, res) {
+		console.log("Note Deleted");
+		const note = findByIdAndRemove(req.params.id);
+	})
+	.catch((err) => {
+		console.log(err.message);
+	});
 
 module.export = router;
