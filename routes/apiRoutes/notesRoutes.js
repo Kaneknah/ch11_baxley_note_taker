@@ -9,14 +9,16 @@ router.get("/notes", (req, res) => {
 router.post("/notes", (req, res) => {
 	res.json(notes);
 });
-//router.delete
-router
-	.delete("/notes/:id", function (req, res) {
+//Function that
+router.delete("/notes/:id", function (req, res) {
+	try {
 		console.log("Note Deleted");
 		const note = findByIdAndRemove(req.params.id);
-	})
-	.catch((err) => {
-		console.log(err.message);
-	});
+	} catch {
+		(err) => {
+			console.log(err.message);
+		};
+	}
+});
 
-module.export = router;
+module.exports = router;
