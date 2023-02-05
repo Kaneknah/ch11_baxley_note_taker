@@ -27,7 +27,3 @@ app.listen(PORT, () => {
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(express.static("public"));
-
-// Sets the use of the api and HTML routes
-app.use("/api", apiRoutes);
-app.use("/", htmlRoutes);
