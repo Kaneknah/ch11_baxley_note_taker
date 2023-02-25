@@ -1,3 +1,13 @@
 {
-	"notesArray": []
+  "notesArray": [
+    {
+      "title": "Billy's Notes!",
+      "text": "More Notes than me",
+      "id": 0
+    },
+    {
+      "title": "G",
+      "text": "g"
+    }
+  ]
 }
