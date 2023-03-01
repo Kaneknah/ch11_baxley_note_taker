@@ -15,7 +15,7 @@
 
 ## Description
 
-this project was the creation of a note taker app that specifically utilized Express.js on the back end to save and retrieve data from JSON files (Link to live website). The application utilized router.get, router.put, and router.delete to retrieve and render added notes on the front end. The application utilizes starter code as the front end.
+This project was the creation of a note taker app that specifically utilized Express.js on the back end to save and retrieve data from JSON files (Link to live website). The application utilized router.get, router.put, and router.delete to retrieve and render added notes on the front end. The application utilizes starter code as the front end.
 
 ## Acceptance Criteria
 
@@ -70,6 +70,10 @@ No testing was utilized for this project
 
 -Express.js<br>
 -Node.js<br>
+
+#### Deployment
+
+-Heroku<br>
 
 ### GitHub Link: <https://github.com/Kaneknah/ch11_baxley_note_taker>
 
