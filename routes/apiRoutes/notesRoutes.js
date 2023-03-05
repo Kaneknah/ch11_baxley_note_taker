@@ -17,21 +17,19 @@ router.post("/notes", (req, res) => {
 	res.json(notes);
 	console.log(notes);
 });
-//Editing created Notes
-router.put("./notes/:id", (req, res) => {
-	editNote(req.body, notesArray);
-	res.json(req.body);
-});
-
-//Deleting Created Notes
-router.delete("/notes/:id", function (req, res) {
-	console.log("Note Deleted");
-	const note = deleteNote(req.params.id, note);
-	res.json(note);
-	console.log(note);
-});
-// .catch((err) => {
-//     console.log(err.message);
+//Editing created  (UNFINISHED)
+// router.put("./notes/:id", (req, res) => {
+// 	editNote(req.body, notesArray);
+// 	res.json(req.body);
 // });
+
+//Deleting Created Notes (UNFINISHED)
+// router.delete("/notes/:id", function (req, res) {
+// 	console.log("Note Deleted");
+// 	const note = deleteNote(req.params.id, note);
+// 	res.json(note);
+// 	console.log(note);
+// });
+
 
 module.exports = router;
