@@ -39,7 +39,7 @@ A user will need to instal the package.json modules in order to run this applica
 
 ## Usage
 
-A user will simply need to navigate to the notes page from the home page by clicking the "get started" button. Once there a user may create a new notes and save them, or edit or delete previously created notes by navigating the provided buttons.
+A user will simply need to navigate to the notes page from the home page by clicking the "get started" button. Once there a user may create a new notes and save them. One may view the notes by selecting them from the list on the left. https://github.com/Kaneknah/ch11_baxley_note_taker
 
 ## Contribution
 
