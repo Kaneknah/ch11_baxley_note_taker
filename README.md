@@ -49,7 +49,7 @@ No testing was utilized for this project
 
 ## Mockup
 
-![Alt text](./public/css/assets/Screen%20Shot%202023-02-19%20at%204.08.58%20PM.png)
+![Alt text](./public/assets/images/Notes%20page.png)
 
 ## Credits
 
